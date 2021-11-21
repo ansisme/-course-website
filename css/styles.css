@@ -1,0 +1,172 @@
+body{
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+}
+h1{
+
+  weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 100px auto 50px;
+}
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: auto 160px 30px;
+}
+h3{
+  font-weight: bold;
+  color: black;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  margin: auto 0 auto;
+  color: white;
+}
+.image{
+  transform: rotate(20deg);
+  width: 250px;
+  margin-top: 100px;
+}
+.nav-item{
+  margin-left: 100px;
+  padding: 0 10px;
+}
+.download-button{
+  margin: auto 7px 0 auto;
+}
+
+/* features section */
+
+#features{
+  text-align: center;
+  color: #8f8f8f;
+  padding: 5% 7%;
+  margin: auto 10px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+.fa-check-circle{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.fa-check-circle:hover{
+  color: #ff4c68;
+}
+.fa-bullseye{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+
+.fa-heart{
+  color: #ef8172;
+    margin-bottom: 10px;
+}
+.fa-heart:hover{
+  color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+  text-align: center;
+  padding: 5%;
+  background-color: #ff4c68;
+  color: white;
+
+}
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  padding-right: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 20px 30px 50px;
+}
+
+.press-logo{
+  width: 15%;
+}
+
+.button{
+  padding: 5% 6%;
+}
+
+/* pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.card-body{
+  font-size: 0.75rem;
+  color: #8f8f8f;
+}
+.image{
+  position: absolute;
+  right: 30%
+}
+@media (max-width: 978px) {
+  .image{
+    transform: rotate(0);
+    position: static;
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* cta section */
+
+#cta{
+
+   background-color: #ff4c68;
+   text-align: center;
+   font-size: 2rem;
+   padding: 7% 15%;
+}
+
+.cta-h3{
+  font-size: 2.5rem;
+  color: white;
+}
+
+.btn{
+  margin: 30px 5px;
+}
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  background-color: white;
+  margin: 100px 15px;
+  line-height: 3;
+  padding: auto 15px;
+
+}
+p{
+  color: #8f8f8f;
+  font-size: 0.75rem;
+}
+
+.icon{
+  margin: auto 10px;
+}
